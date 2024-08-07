@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspone", "Aspone\Aspone.csproj", "{758A813B-923D-41A2-9BB7-FDC9A8B4C0C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUE4Parse", "CUE4Parse\CUE4Parse\CUE4Parse.csproj", "{01E83722-5789-41EF-A98A-42FDDB59804D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUE4Parse-Conversion", "CUE4Parse\CUE4Parse-Conversion\CUE4Parse-Conversion.csproj", "{F9C2EC44-918C-4070-AC0B-E1B82D744259}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{758A813B-923D-41A2-9BB7-FDC9A8B4C0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{758A813B-923D-41A2-9BB7-FDC9A8B4C0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{758A813B-923D-41A2-9BB7-FDC9A8B4C0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E83722-5789-41EF-A98A-42FDDB59804D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E83722-5789-41EF-A98A-42FDDB59804D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E83722-5789-41EF-A98A-42FDDB59804D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E83722-5789-41EF-A98A-42FDDB59804D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9C2EC44-918C-4070-AC0B-E1B82D744259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C2EC44-918C-4070-AC0B-E1B82D744259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C2EC44-918C-4070-AC0B-E1B82D744259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C2EC44-918C-4070-AC0B-E1B82D744259}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
