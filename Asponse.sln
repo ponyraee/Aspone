@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspone", "Aspone\Aspone.csproj", "{758A813B-923D-41A2-9BB7-FDC9A8B4C0C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asponse", "Asponse\Asponse.csproj", "{758A813B-923D-41A2-9BB7-FDC9A8B4C0C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUE4Parse", "CUE4Parse\CUE4Parse\CUE4Parse.csproj", "{01E83722-5789-41EF-A98A-42FDDB59804D}"
 EndProject
