@@ -8,5 +8,6 @@ public static class Program
     {
         await Initialize().ConfigureAwait(false);
         await CUE4ParseVM.Initialize();
+        await CUE4ParseVM.ExportFiles();
     }
 }

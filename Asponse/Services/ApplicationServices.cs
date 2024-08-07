@@ -11,9 +11,11 @@ public static class ApplicationServices
     public static readonly string DataDirectory = Path.Combine(OutputDirectory, ".data");
     public static readonly string ManifestCacheDirectory = Path.Combine(DataDirectory, "Manifest Cache");
     public static readonly string ChunkCacheDirectory = Path.Combine(DataDirectory, "Chunk Cache");
+    public static readonly string ExportDirectory = Path.Combine(OutputDirectory, "Exports");
 
     public static readonly ApiEndpointViewModel ApiVM = new ApiEndpointViewModel();
     public static readonly CUE4ParseViewModel CUE4ParseVM = new CUE4ParseViewModel();
+    public static readonly BackupViewModel BackupVM = new BackupViewModel();
     
     public static async Task Initialize()
     {
@@ -28,7 +30,7 @@ public static class ApplicationServices
             .CreateLogger();
 #endif
 
-        foreach (var directory in new[] { OutputDirectory, DataDirectory, ManifestCacheDirectory, ChunkCacheDirectory })
+        foreach (var directory in new[] { OutputDirectory, DataDirectory, ManifestCacheDirectory, ChunkCacheDirectory, ExportDirectory })
         {
             if (!Directory.Exists(directory))
                 Directory.CreateDirectory(directory);
